@@ -1,0 +1,38 @@
+{
+  "name": "@agent-infra/agent-waf",
+  "version": "1.0.0",
+  "description": "Web Application Firewall for AI Agent Systems",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "node --test",
+    "lint": "eslint src/ tests/"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "infrastructure",
+    "security",
+    "waf",
+    "prompt-injection",
+    "rate-limiting"
+  ],
+  "author": "Yoshi Kondo <yoshi@musicailab.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yksanjo/agent-infra-agent-waf.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
