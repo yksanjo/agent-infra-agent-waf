@@ -1,0 +1,23 @@
+{
+  "name": "agent-infra-agent-waf",
+  "version": "1.0.0",
+  "description": "Web Application Firewall for AI Agents",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "infrastructure",
+    "agent-waf"
+  ],
+  "author": "Yoshi Kondo <yoshi@musicailab.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yksanjo/agent-infra-agent-waf.git"
+  }
+}
